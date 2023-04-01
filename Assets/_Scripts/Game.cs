@@ -63,4 +63,29 @@ public class Game : MonoBehaviour
     {
         currentScore += hitPower;
     }
+
+    //Shop
+    public void Shop1()
+    {
+        if(currentScore>=shop1prize)
+        {
+            currentScore -= shop1prize;
+            amount1 += 1;
+            amount1profit += 1;
+            x += 1;
+            shop1prize += 25;
+        }
+    }
+
+    public void Shop2()
+    {
+        if (currentScore >= shop2prize)
+        {
+            currentScore -= shop2prize;
+            amount2 += 1;
+            amount2profit += 5;
+            x += 5;
+            shop2prize += 125;
+        }
+    }
 }

@@ -188,10 +188,10 @@ MonoBehaviour:
   shop2text: {fileID: 2117992228}
   amount1text: {fileID: 498198476}
   amount1: 0
-  amount1profit: 1
+  amount1profit: 0
   amount2text: {fileID: 885471668}
   amount2: 0
-  amount2profit: 2
+  amount2profit: 0
 --- !u!1 &203736768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,7 +1127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805704217}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134447083}
+        m_TargetAssemblyTypeName: Game, Assembly-CSharp
+        m_MethodName: Shop2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &805704217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1599,7 +1611,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1264437092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 134447083}
+        m_TargetAssemblyTypeName: Game, Assembly-CSharp
+        m_MethodName: Shop1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1264437092
 MonoBehaviour:
   m_ObjectHideFlags: 0
