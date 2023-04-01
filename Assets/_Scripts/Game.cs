@@ -33,6 +33,13 @@ public class Game : MonoBehaviour
     public int upgradePrize;
     public TMP_Text UpgradeText;
 
+    //Achievement
+    public bool achievementScore;
+    public bool achievementShop;
+
+    public Image image1;
+    public Image image2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,6 +103,35 @@ public class Game : MonoBehaviour
         PlayerPrefs.SetInt("amount2", (int)amount2);
         PlayerPrefs.SetInt("amount2profit", (int)amount2profit);
         PlayerPrefs.SetInt("upgradePrize", (int)upgradePrize);
+
+        //Achievement
+        if(currentScore >= 50)
+        {
+            achievementScore = true;
+        }
+
+        if(amount1 >= 2)
+        {
+            achievementShop = true;
+        }
+
+        if (achievementScore == true)
+        {
+            image1.color = new Color(1f, 1f, 1f, 1f);
+        }
+        else
+        {
+            image1.color = new Color(0.2f, 0.2f, 0.2f, 0.2f);
+        }
+
+        if (achievementShop == true)
+        {
+            image2.color = new Color(1f, 1f, 1f, 1f);
+        }
+        else
+        {
+            image2.color = new Color(0.2f, 0.2f, 0.2f, 0.2f);
+        }
     }
 
     //Hit
