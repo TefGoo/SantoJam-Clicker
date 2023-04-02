@@ -40,6 +40,9 @@ public class Game : MonoBehaviour
     public Image image1;
     public Image image2;
 
+    //Highscore
+    public int bestScore;
+    public TMP_Text bestScoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +74,9 @@ public class Game : MonoBehaviour
         amount2 = PlayerPrefs.GetInt("amount2", 0);
         amount2profit = PlayerPrefs.GetInt("amount2profit", 0);
         upgradePrize = PlayerPrefs.GetInt("upgradePrize", 50);
+
+        //New
+        bestScore = PlayerPrefs.GetInt("bestScore", 0);
     }
 
     // Update is called once per frame
@@ -132,6 +138,17 @@ public class Game : MonoBehaviour
         {
             image2.color = new Color(0.2f, 0.2f, 0.2f, 0.2f);
         }
+
+        //New
+        PlayerPrefs.SetInt("bestScore", bestScore);
+
+        //Highscore
+        if(currentScore > bestScore)
+        {
+            bestScore = (int)currentScore;
+        }
+
+        bestScoreText.text = bestScore + "Best Score";
     }
 
     //Hit
