@@ -48,6 +48,10 @@ public class Game : MonoBehaviour
     public bool nowIsEvent;
     public GameObject goldButton;
 
+    //Hit
+    public GameObject plusObject;
+    public TMP_Text plusText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -168,12 +172,20 @@ public class Game : MonoBehaviour
             goldButton.transform.position = new Vector3(Random.Range(0, 751), Random.Range(0, 401), 0);
         }
 
+        //Hit
+        plusText.text = "+ " + hitPower;
+ 
     }
 
     //Hit
     public void Hit()
     {
         currentScore += hitPower;
+        plusObject.SetActive(false);
+        plusObject.transform.position = new Vector3(Random.Range(200, 545 + 1), Random.Range(100, 405 + 1), 0);
+        plusObject.SetActive(true);
+        StopAllCoroutines();
+        StartCoroutine(Fly());
     }
 
     //Shop
@@ -238,6 +250,17 @@ public class Game : MonoBehaviour
             goldButton.SetActive(true);
         }
 
+    }
+
+    //Hit
+    IEnumerator Fly()
+    {
+        for(int i = 0; i <= 19; i++)
+        {
+            yield return new WaitForSeconds(0.01f);
+            plusObject.transform.position = new Vector3(plusObject.transform.position.x, plusObject.transform.position.y + 2, 0);
+        }
+        plusObject.SetActive(false);
     }
 
 }
