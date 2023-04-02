@@ -43,6 +43,12 @@ public class Game : MonoBehaviour
     //Highscore
     public int bestScore;
     public TMP_Text bestScoreText;
+
+    //Random Event
+    public bool nowIsEvent;
+    public GameObject goldButton;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -149,6 +155,19 @@ public class Game : MonoBehaviour
         }
 
         bestScoreText.text = bestScore + "Best Score";
+
+        //Random Event
+        if(nowIsEvent == false && goldButton.active == true)
+        {
+            goldButton.SetActive(false);
+            StartCoroutine(WaitForEvent());
+        }
+        if(nowIsEvent == true && goldButton.active == false)
+        {
+            goldButton.SetActive(true);
+            goldButton.transform.position = new Vector3(Random.Range(0, 751), Random.Range(0, 401), 0);
+        }
+
     }
 
     //Hit
@@ -191,6 +210,34 @@ public class Game : MonoBehaviour
             hitPower *= 2;
             upgradePrize *= 3;
         }
+    }
+
+    //Random Event
+    public void GetReward()
+    {
+        currentScore = currentScore + Random.Range(1, 2500);
+        nowIsEvent = false;
+        StartCoroutine(WaitForEvent());
+    }
+
+    //Random Event
+    IEnumerator WaitForEvent()
+    {
+        yield return new WaitForSeconds(60f);
+
+        int x = 0;
+        x = Random.Range(1, 3);
+
+        if(x == 2)
+        {
+            nowIsEvent = true;  
+
+        }
+        else
+        {
+            goldButton.SetActive(true);
+        }
+
     }
 
 }
