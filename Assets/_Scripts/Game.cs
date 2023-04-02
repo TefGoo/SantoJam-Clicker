@@ -235,7 +235,7 @@ public class Game : MonoBehaviour
     //Random Event
     IEnumerator WaitForEvent()
     {
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(6f);
 
         int x = 0;
         x = Random.Range(1, 3);
