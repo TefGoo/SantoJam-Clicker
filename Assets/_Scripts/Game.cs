@@ -87,6 +87,7 @@ public class Game : MonoBehaviour
 
         //New
         bestScore = PlayerPrefs.GetInt("bestScore", 0);
+
     }
 
     // Update is called once per frame
@@ -121,12 +122,12 @@ public class Game : MonoBehaviour
         PlayerPrefs.SetInt("upgradePrize", (int)upgradePrize);
 
         //Achievement
-        if(currentScore >= 50)
+        if (currentScore >= 50)
         {
             achievementScore = true;
         }
 
-        if(amount1 >= 2)
+        if (amount1 >= 2)
         {
             achievementShop = true;
         }
@@ -153,7 +154,7 @@ public class Game : MonoBehaviour
         PlayerPrefs.SetInt("bestScore", bestScore);
 
         //Highscore
-        if(currentScore > bestScore)
+        if (currentScore > bestScore)
         {
             bestScore = (int)currentScore;
         }
@@ -161,28 +162,30 @@ public class Game : MonoBehaviour
         bestScoreText.text = bestScore + "Best Score";
 
         //Random Event
-        if(nowIsEvent == false && goldButton.active == true)
+        if (nowIsEvent == false && goldButton.activeSelf == true)
         {
             goldButton.SetActive(false);
             StartCoroutine(WaitForEvent());
         }
-        if(nowIsEvent == true && goldButton.active == false)
+        if (nowIsEvent == true && goldButton.activeSelf == false)
         {
             goldButton.SetActive(true);
             goldButton.transform.position = new Vector3(Random.Range(0, 751), Random.Range(0, 401), 0);
         }
 
+
         //Hit
         plusText.text = "+ " + hitPower;
- 
+
     }
 
     //Hit
+
     public void Hit()
     {
         currentScore += hitPower;
         plusObject.SetActive(false);
-        plusObject.transform.position = new Vector3(Random.Range(200, 545 + 1), Random.Range(100, 405 + 1), 0);
+        plusObject.transform.position = new Vector3(Random.Range(600, 901 +1), Random.Range(250, 305 + 1), 0);
         plusObject.SetActive(true);
         StopAllCoroutines();
         StartCoroutine(Fly());
@@ -191,7 +194,7 @@ public class Game : MonoBehaviour
     //Shop
     public void Shop1()
     {
-        if(currentScore>=shop1prize)
+        if (currentScore >= shop1prize)
         {
             currentScore -= shop1prize;
             amount1 += 1;
@@ -216,7 +219,7 @@ public class Game : MonoBehaviour
     //Upgrade
     public void Upgrade()
     {
-        if(currentScore >= upgradePrize)
+        if (currentScore >= upgradePrize)
         {
             currentScore -= upgradePrize;
             hitPower *= 2;
@@ -235,14 +238,14 @@ public class Game : MonoBehaviour
     //Random Event
     IEnumerator WaitForEvent()
     {
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(5f);
 
         int x = 0;
-        x = Random.Range(1, 3);
+        x = Random.Range(1, 4);
 
-        if(x == 2)
+        if (x == 3)
         {
-            nowIsEvent = true;  
+            nowIsEvent = true;
 
         }
         else
@@ -255,7 +258,7 @@ public class Game : MonoBehaviour
     //Hit
     IEnumerator Fly()
     {
-        for(int i = 0; i <= 19; i++)
+        for (int i = 0; i <= 19; i++)
         {
             yield return new WaitForSeconds(0.01f);
             plusObject.transform.position = new Vector3(plusObject.transform.position.x, plusObject.transform.position.y + 2, 0);
