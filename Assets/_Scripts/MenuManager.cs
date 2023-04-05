@@ -10,4 +10,10 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("StartScreen");
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+        Debug.Log("Aplication Closing...");
+    }
 }
