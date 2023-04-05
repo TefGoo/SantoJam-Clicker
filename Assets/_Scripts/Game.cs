@@ -159,7 +159,7 @@ public class Game : MonoBehaviour
             bestScore = (int)currentScore;
         }
 
-        bestScoreText.text = bestScore + "Best Score";
+        bestScoreText.text = "Record Money: " + bestScore + "$";
 
         //Random Event
         if (nowIsEvent == false && goldButton.activeSelf == true)
