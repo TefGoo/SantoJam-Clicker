@@ -23,6 +23,20 @@ MonoBehaviour:
     m_Key: Highscore
     m_Metadata:
       m_Items: []
+  - m_Id: 182617860501504
+    m_Key: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184620992983040
+    m_Key: 'RESUME
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184820989980672
+    m_Key: EXIT
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

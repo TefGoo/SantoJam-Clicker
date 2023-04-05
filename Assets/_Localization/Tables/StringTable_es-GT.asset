@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: Record de dinero
     m_Metadata:
       m_Items: []
+  - m_Id: 182617860501504
+    m_Localized: JUEGO PAUSADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184620992983040
+    m_Localized: REANUDAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184820989980672
+    m_Localized: CERRAR  JUEGO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
