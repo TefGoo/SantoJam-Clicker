@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: en-US
   m_SharedData: {fileID: 11400000, guid: acbdcc54bcdf0fe4a816bf7febf94833, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 246085148696379399
   m_TableData:
   - m_Id: 2991200694272
     m_Localized: Buy
@@ -42,6 +43,78 @@ MonoBehaviour:
     m_Localized: "RECORD MONEY\t"
     m_Metadata:
       m_Items: []
+  - m_Id: 787870108643328
+    m_Localized: There are more than 30 volcanoes in Guatemala. (Only 3 are active)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 789782195367936
+    m_Localized: Guatemala has more than 20 languages. (Spanish is the official one)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 790105244856320
+    m_Localized: Atitlan Lake is the deepest lake in Central America. (More than
+      340m deep)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 790394949627904
+    m_Localized: Guatemala invented chocolate. (Mayas called it "Food for the gods")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 791558856404992
+    m_Localized: Guatemala has a unique food called "Pepian". (It's delicious)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 791905993781248
+    m_Localized: Did you know you could go and free turtles in the sea? (In Guatemala
+      it's a beautiful tradition)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 792126496731136
+    m_Localized: Guatemala is called like that because the Nahuatl "Quauhtlemallan".
+      (It means "Place with many trees")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 792622368321536
+    m_Localized: Guatemala has thermal baths with healing water. (They help to relief
+      arthritis pain)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 792949616308224
+    m_Localized: Guatemala is one of the 2 countries with coins named after a bird,
+      Quetzal. (The other one is Kiwi in New Zealand)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 793519534141440
+    m_Localized: Instant coffee was invented in Guatemala. (In 1909 by Federico Lehnhoff
+      Wyld)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 793753152679936
+    m_Localized: Guatemala's musical instrument is Marimba. (And it's beautiful and
+      unique)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 794659394973696
+    m_Localized: Guatemala has the largest pyramid of the world, "La Danta". (It's
+      more than 70m tall)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 246085148696379399
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070f44d90cc02000070347f4dce0200007074b698ce02000070342adcce020000707428ebcf0200007074fb3bd00200007074526fd002000070b4c6e2d00200007034f82ed102000070f4a9b3d102000070b40eead102000070f40ebdd202000070344a21d30200
