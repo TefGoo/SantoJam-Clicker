@@ -37,6 +37,10 @@ MonoBehaviour:
     m_Key: EXIT
     m_Metadata:
       m_Items: []
+  - m_Id: 570473976197120
+    m_Key: 'RECORD '
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

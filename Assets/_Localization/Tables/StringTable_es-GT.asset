@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: CERRAR  JUEGO
     m_Metadata:
       m_Items: []
+  - m_Id: 570473976197120
+    m_Localized: MAXIMO AHORRADO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: EXIT
     m_Metadata:
       m_Items: []
+  - m_Id: 570473976197120
+    m_Localized: "RECORD MONEY\t"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

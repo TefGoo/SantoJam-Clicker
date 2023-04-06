@@ -138,18 +138,18 @@ public class Game : MonoBehaviour
         currentScore = currentScore + scoreIncreasePerSecond;
 
         //Shop
-        shop1text.text = "Tier 1: " + shop1prize + " $";
-        shop2text.text = "Tier 2: " + shop2prize + " $";
-        shop3text.text = "Tier 3: " + shop3prize + " $";
-        shop4text.text = "Tier 4: " + shop4prize + " $";
-        shop5text.text = "Tier 5: " + shop5prize + " $";
+        shop1text.text = "Rompope: " + "$" + shop1prize;
+        shop2text.text = "Pepian: " + "$" + shop2prize;
+        shop3text.text = "Quitapenas: " + "$" + shop3prize;
+        shop4text.text = "Tikal: " + "$" + shop4prize;
+        shop5text.text = "Quetzal: " + "$" + shop5prize;
 
         //Amount
-        amount1text.text = "Tier 1: " + amount1 + "arts $: " + amount1profit + "/s";
-        amount2text.text = "Tier 2: " + amount2 + "arts $: " + amount2profit + "/s";
-        amount3text.text = "Tier 3: " + amount3 + "arts $: " + amount3profit + "/s";
-        amount4text.text = "Tier 4: " + amount4 + "arts $: " + amount4profit + "/s";
-        amount5text.text = "Tier 5: " + amount5 + "arts $: " + amount5profit + "/s";
+        amount1text.text = "Rompope: " + amount1 + " | " + " $" + amount1profit + " /s";
+        amount2text.text = "Pepian: " + amount2 + " | " + " $" + amount2profit + " /s";
+        amount3text.text = "Quitapenas: " + amount3 + " | " + " $" + amount3profit + " /s";
+        amount4text.text = "Tikal: " + amount4 + " | " + " $" + amount4profit + " /s";
+        amount5text.text = "Quetzal: " + amount5 + " | " + " $" + amount5profit + " /s";
 
         //Upgrade
         UpgradeText.text = "Cost: " + upgradePrize + " $";
