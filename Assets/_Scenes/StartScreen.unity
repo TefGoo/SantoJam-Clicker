@@ -7647,9 +7647,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Highscore:
-
-'
+  m_text: 'Record:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0ea6515c02e32d24c8bc1cb112f20966, type: 2}
   m_sharedMaterial: {fileID: -3747147440476953699, guid: 0ea6515c02e32d24c8bc1cb112f20966, type: 2}
@@ -7676,7 +7674,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.25
+  m_fontSize: 72
   m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 1

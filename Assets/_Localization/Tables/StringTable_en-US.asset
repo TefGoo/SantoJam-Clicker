@@ -186,7 +186,7 @@ MonoBehaviour:
       m_Items:
       - rid: 246085148696379399
   - m_Id: 833779618050048
-    m_Localized: 'Most money: {0}'
+    m_Localized: 'Record: {0}'
     m_Metadata:
       m_Items:
       - rid: 246085148696379399

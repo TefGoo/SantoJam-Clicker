@@ -152,7 +152,7 @@ public class Game : MonoBehaviour
         amount5text.text = "Quetzal: " + amount5 + " | " + " $" + amount5profit + " /s";
 
         //Upgrade
-        UpgradeText.text = "Cost: " + upgradePrize + " $";
+        UpgradeText.text = "+ Click: " + upgradePrize + " $";
 
         //Save
         PlayerPrefs.SetInt("currentScore", (int)currentScore);
@@ -213,7 +213,7 @@ public class Game : MonoBehaviour
             bestScore = (int)currentScore;
         }
 
-        bestScoreText.text = "Most money: " + bestScore + "$";
+        bestScoreText.text = "Record: " + bestScore + "$";
 
         //Random Event
         if (nowIsEvent == false && goldButton.activeSelf == true)
