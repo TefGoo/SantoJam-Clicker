@@ -1,19 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 using UnityEngine.Localization;
 
 public class ChangeText : MonoBehaviour
 {
-    public LocalizedString localizedString;
-    public TMPro.TMP_Text textObject;
+    public LocalizedString[] localizedStrings;
+    public TMP_Text textObject;
     public float changeInterval = 5f;
 
     void Start()
     {
-        InvokeRepeating("ChangeTextEveryInterval", 0f, changeInterval);
+        InvokeRepeating("ChangeTextEvery20Seconds", 0f, changeInterval);
     }
 
-    void ChangeTextEveryInterval()
+    void ChangeTextEvery20Seconds()
     {
-        textObject.text = localizedString.GetLocalizedString();
+        int index = Random.Range(0, localizedStrings.Length);
+        textObject.text = localizedStrings[index].GetLocalizedString();
     }
 }

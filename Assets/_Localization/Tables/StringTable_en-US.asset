@@ -111,10 +111,84 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 246085148696379399
+  - m_Id: 816105143955456
+    m_Localized: There are more than 30 volcanoes in Guatemala. (Only 3 are active)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 817200532582400
+    m_Localized: Guatemala has more than 20 languages. (Spanish is the official one)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 818067486830592
+    m_Localized: Atitlan Lake is the deepest lake in Central America. (More than
+      340m deep)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 818392146931712
+    m_Localized: Guatemala invented chocolate. (Mayas called it "Food for the gods")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 818526561792000
+    m_Localized: Guatemala has a unique food called "Pepian". (It's delicious)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 818738739048448
+    m_Localized: Did you know you could go and free turtles in the sea? (In Guatemala
+      it's a beautiful tradition)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 819520649588736
+    m_Localized: Guatemala is called like that because the Nahuatl "Quauhtlemallan".
+      (It means "Place with many trees")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 819675385851904
+    m_Localized: Guatemala has thermal baths with healing water. (They help to relief
+      arthritis pain)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 819784228040704
+    m_Localized: Guatemala is one of the 2 countries with coins named after a bird,
+      Quetzal. (The other one is Kiwi in New Zealand)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 819908731760640
+    m_Localized: Instant coffee was invented in Guatemala. (In 1909 by Federico Lehnhoff
+      Wyld)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 820075040108544
+    m_Localized: Guatemala's musical instrument is Marimba. (And it's beautiful and
+      unique)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 820244913614848
+    m_Localized: Guatemala has the largest pyramid of the world, "La Danta". (It's
+      more than 70m tall)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
+  - m_Id: 820443216113664
+    m_Localized: If you do nothing on this screen there is a probability that a Quetzal
+      appears. (It gives you money)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379399
   references:
     version: 2
     RefIds:
     - rid: 246085148696379399
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0070f44d90cc02000070347f4dce0200007074b698ce02000070342adcce020000707428ebcf0200007074fb3bd00200007074526fd002000070b4c6e2d00200007034f82ed102000070f4a9b3d102000070b40eead102000070f40ebdd202000070344a21d30200
+        m_Entries: 0070f44d90cc02000070347f4dce0200007074b698ce02000070342adcce020000707428ebcf0200007074fb3bd00200007074526fd002000070b4c6e2d00200007034f82ed102000070f4a9b3d102000070b40eead102000070f40ebdd202000070344a21d30200007034493ee60200007074533de702000070f42d07e80200007034c552e802000070f41072e802000070b477a3e802000070348559e902000070348c7de902000070b4e396e902000070b4e0b3e9020000707499dae902000070b42602ea02000070745230ea0200

@@ -61,7 +61,7 @@ MonoBehaviour:
       m_Items:
       - rid: 246085148696379400
   - m_Id: 790394949627904
-    m_Localized: Guatemala invento el chocolate. (Los Mayas lo llamaban "La comdia
+    m_Localized: Guatemala invento el chocolate. (Los Mayas lo llamaban "La comida
       de los Dioses")
     m_Metadata:
       m_Items:
@@ -112,10 +112,87 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 246085148696379400
+  - m_Id: 816105143955456
+    m_Localized: Hay mas de 30 volcanes en Guatemala. (Solo 3 estan activos)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 817200532582400
+    m_Localized: "En Guatemala se hablan mas de 20 lenguas. (El Espa\xF1ol es el
+      idioma oficial)"
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 818067486830592
+    m_Localized: El Lago Atitlan es el lago mas profundo en Centroamerica. (Tiene
+      mas de 340m de profundidad)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 818392146931712
+    m_Localized: Guatemala invento el chocolate. (Los Mayas lo llamaban "La comdia
+      de los Dioses")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 818526561792000
+    m_Localized: En Guatemala hay un platillo unico llamado "Pepian". (Es delicioso)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 818738739048448
+    m_Localized: Sabias que puedes ir a liberar tortugas al mar? (En Guatemala es
+      una tradicion muy bella)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 819520649588736
+    m_Localized: Guatemala se llama asi por el Nahuatl "Quauhtemallan". (Significa
+      "Lugar con muchos arboles")
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 819675385851904
+    m_Localized: Guatemala tiene aguas termales curativas. (Alivian dolores de reuma
+      y artritis)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 819784228040704
+    m_Localized: Guatemala es uno de los 2 paises que su moneda se llama como un
+      ave, Quetzal. (El otro es el Kiwi en Nueva Zelanda)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 819908731760640
+    m_Localized: El cafe instantaneo se invento en Gatemala. (En 1909 por Federico
+      Lehnoff Wyld)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 820075040108544
+    m_Localized: El instrumento patrio es la Marimba. (Escucharla es especial y hermoso)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 820244913614848
+    m_Localized: En Guatemala se encuentra la piramide mas grande del mundo, "La
+      Danta". (Mide mas de 70m)
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
+  - m_Id: 820443216113664
+    m_Localized: 'Si no haces nada en esta pantalla al iniciar, es probable que aparezcan
+      Quetzales en pantalla. (Si, dan dinero)
+
+'
+    m_Metadata:
+      m_Items:
+      - rid: 246085148696379400
   references:
     version: 2
     RefIds:
     - rid: 246085148696379400
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0070f44d90cc02000070347f4dce0200007074b698ce02000070342adcce020000707428ebcf0200007074fb3bd00200007074526fd002000070b4c6e2d00200007034f82ed102000070f4a9b3d102000070b40eead102000070f40ebdd202000070344a21d30200
+        m_Entries: 0070f44d90cc02000070347f4dce0200007074b698ce02000070342adcce020000707428ebcf0200007074fb3bd00200007074526fd002000070b4c6e2d00200007034f82ed102000070f4a9b3d102000070b40eead102000070f40ebdd202000070344a21d30200007034493ee60200007074533de702000070f42d07e80200007034c552e802000070f41072e802000070b477a3e802000070348559e902000070348c7de902000070b4e396e902000070b4e0b3e9020000707499dae902000070b42602ea02000070745230ea0200
