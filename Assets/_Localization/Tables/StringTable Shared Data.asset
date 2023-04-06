@@ -143,6 +143,10 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 833779618050048
+    m_Key: Record
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

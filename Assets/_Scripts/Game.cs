@@ -213,7 +213,7 @@ public class Game : MonoBehaviour
             bestScore = (int)currentScore;
         }
 
-        bestScoreText.text = "Record Money: " + bestScore + "$";
+        bestScoreText.text = "Most money: " + bestScore + "$";
 
         //Random Event
         if (nowIsEvent == false && goldButton.activeSelf == true)
@@ -239,11 +239,18 @@ public class Game : MonoBehaviour
     {
         currentScore += hitPower;
         plusObject.SetActive(false);
-        plusObject.transform.position = new Vector3(Random.Range(600, 901 +1), Random.Range(250, 305 + 1), 0);
+        int screenWidth = Screen.width;
+        int screenHeight = Screen.height;
+        int xMin = screenWidth / 4;
+        int xMax = 3 * screenWidth / 4;
+        int yMin = screenHeight / 4;
+        int yMax = 3 * screenHeight / 4;
+        plusObject.transform.position = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), 0);
         plusObject.SetActive(true);
         StopAllCoroutines();
         StartCoroutine(Fly());
     }
+
 
     //Shop
     public void Shop1()
