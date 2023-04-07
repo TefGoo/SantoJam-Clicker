@@ -245,7 +245,6 @@ public class Game : MonoBehaviour
         int yMax = 3 * screenHeight / 4;
         plusObject.transform.position = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), 0);
         plusObject.SetActive(true);
-        StopAllCoroutines();
         StartCoroutine(Fly());
     }
 
@@ -333,7 +332,7 @@ public class Game : MonoBehaviour
     //Random Event
     IEnumerator WaitForEvent()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(20f);
 
         int x = 0;
         x = Random.Range(1, 4);
