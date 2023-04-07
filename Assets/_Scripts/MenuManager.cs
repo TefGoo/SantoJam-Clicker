@@ -16,4 +16,14 @@ public class MenuManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Aplication Closing...");
     }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
