@@ -77,6 +77,7 @@ public class Game : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //PlayerPrefs.DeleteAll();
         //Clicks
         currentScore = 0;
         hitPower = 1;
@@ -332,7 +333,7 @@ public class Game : MonoBehaviour
     //Random Event
     IEnumerator WaitForEvent()
     {
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(15f);
 
         int x = 0;
         x = Random.Range(1, 4);
