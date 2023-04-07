@@ -100,8 +100,6 @@ public class Game : MonoBehaviour
         amount5 = 0;
         amount5profit = 40;
 
-        //Reset
-        //PlayerPrefs.DeleteAll();
 
         //Load
         currentScore = PlayerPrefs.GetInt("currentScore", 0);
@@ -169,7 +167,7 @@ public class Game : MonoBehaviour
         PlayerPrefs.SetInt("amount2profit", (int)amount2profit);
         PlayerPrefs.SetInt("amount3", (int)amount3);
         PlayerPrefs.SetInt("amount3profit", (int)amount3profit);
-        PlayerPrefs.SetInt("amount4", (int)amount1);
+        PlayerPrefs.SetInt("amount4", (int)amount4);
         PlayerPrefs.SetInt("amount4profit", (int)amount4profit);
         PlayerPrefs.SetInt("amount5", (int)amount5);
         PlayerPrefs.SetInt("amount5profit", (int)amount5profit);
