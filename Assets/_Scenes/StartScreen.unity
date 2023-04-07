@@ -2489,7 +2489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &567505643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   muteButtonImage: {fileID: 459549424}
   muteSprite: {fileID: 21300000, guid: 07b32c538f796844bbcd68c43da30dcf, type: 3}
   unmuteSprite: {fileID: 21300000, guid: cd72311f1180af14db04c6aba447b34c, type: 3}
-  music: {fileID: 1549324532}
+  audioGameObject: {fileID: 1877688030}
 --- !u!1 &573091661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6591,6 +6591,7 @@ GameObject:
   - component: {fileID: 1838550755}
   - component: {fileID: 1838550754}
   - component: {fileID: 1838550757}
+  - component: {fileID: 1838550758}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6821,6 +6822,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1838550758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838550752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f581ed448b4cd1d4ba87301d6466c1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleSpeed: 0.01
+  maxScale: 0.2
+  minScale: 0.19
 --- !u!1 &1845599549
 GameObject:
   m_ObjectHideFlags: 0

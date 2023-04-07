@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: ChangingText
   m_TableCollectionNameGuidString: ddeb9ef6cda83e44db8b429f85acbef7
-  m_Entries: []
+  m_Entries:
+  - m_Id: 82617310670848
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82994034667520
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

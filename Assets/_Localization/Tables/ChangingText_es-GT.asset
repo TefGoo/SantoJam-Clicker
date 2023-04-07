@@ -16,8 +16,21 @@ MonoBehaviour:
     m_Code: es-GT
   m_SharedData: {fileID: 11400000, guid: ddeb9ef6cda83e44db8b429f85acbef7, type: 2}
   m_Metadata:
-    m_Items: []
-  m_TableData: []
+    m_Items:
+    - rid: 246085155298738179
+  m_TableData:
+  - m_Id: 82617310670848
+    m_Localized: Creditos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82994034667520
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 246085155298738179
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0070349cb44a0000

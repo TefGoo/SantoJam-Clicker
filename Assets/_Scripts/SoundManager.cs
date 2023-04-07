@@ -6,20 +6,19 @@ public class SoundManager : MonoBehaviour
     public Image muteButtonImage;
     public Sprite muteSprite;
     public Sprite unmuteSprite;
-    public AudioSource music;
-
+    public GameObject audioGameObject; // the game object with AudioSource component
     private bool isMuted = false;
 
     void Start()
     {
-        isMuted = music.mute;
+        isMuted = !audioGameObject.activeSelf;
         UpdateMuteButton();
     }
 
     public void ToggleMute()
     {
         isMuted = !isMuted;
-        music.mute = isMuted;
+        audioGameObject.SetActive(!isMuted);
         UpdateMuteButton();
     }
 
