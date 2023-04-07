@@ -27,6 +27,44 @@ MonoBehaviour:
     m_Localized: Exit
     m_Metadata:
       m_Items: []
+  - m_Id: 278706655621120
+    m_Localized: CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278979880972288
+    m_Localized: GAME CREATED BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279287726108672
+    m_Localized: SPRITES BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279519721451520
+    m_Localized: MUSIC BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279864954613760
+    m_Localized: UI BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280122698788864
+    m_Localized: VFX BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280267016400896
+    m_Localized: SFX BY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280498323877888
+    m_Localized: 'And you, for playing this game.
+
+      Thank you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280804268994560
+    m_Localized: BACK TO MENU
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

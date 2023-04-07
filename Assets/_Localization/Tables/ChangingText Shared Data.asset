@@ -23,6 +23,44 @@ MonoBehaviour:
     m_Key: Exit
     m_Metadata:
       m_Items: []
+  - m_Id: 278706655621120
+    m_Key: '1
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278979880972288
+    m_Key: By
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279287726108672
+    m_Key: Sprites
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279519721451520
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279864954613760
+    m_Key: Ui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280122698788864
+    m_Key: Vfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280267016400896
+    m_Key: Sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280498323877888
+    m_Key: You
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280804268994560
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

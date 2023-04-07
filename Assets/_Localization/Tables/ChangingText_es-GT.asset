@@ -27,6 +27,44 @@ MonoBehaviour:
     m_Localized: Salir
     m_Metadata:
       m_Items: []
+  - m_Id: 278706655621120
+    m_Localized: CREDITOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278979880972288
+    m_Localized: CREADO POR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279287726108672
+    m_Localized: IMAGENES DE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279519721451520
+    m_Localized: CON MUSICA DE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279864954613760
+    m_Localized: INTERFAZ POR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280122698788864
+    m_Localized: EFECTOS VISUALES POR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280267016400896
+    m_Localized: EFECTOS SONOROS POR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280498323877888
+    m_Localized: 'Y TU, POR JUGAR ESTE JUEGO.
+
+      GRACIAS.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 280804268994560
+    m_Localized: IR AL MENU
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
